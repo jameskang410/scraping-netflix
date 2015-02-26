@@ -17,35 +17,35 @@ Git clone this to your local computer and it should be good to go.
 Currently working on making this installable via Pip.
 
 # Instructions
-    ```python
-    from netflix import *
+```python
+from netflix import *
 
-    # Insert netflix ID as a raw string
-    # To find Netflix ID:
-    # Sign into Netflix > Chrome Developer Tools > Resources > Cookies > www.netflix.com > NetflixId
-    netflix_id = r'INSERT NETFLIX ID HERE'
+# Insert netflix ID as a raw string
+# To find Netflix ID:
+# Sign into Netflix > Chrome Developer Tools > Resources > Cookies > www.netflix.com > NetflixId
+netflix_id = r'INSERT NETFLIX ID HERE'
 
-    movie = Netflix(netflix_id)
+movie = Netflix(netflix_id)
 
-    # Initialization only has to be done once.
-    # This method creates jsons for all of the major genres that will be used to pull data from
-    movie.initialize()
+# Initialization only has to be done once.
+# This method creates jsons for all of the major genres that will be used to pull data from
+movie.initialize()
 
-    """
-    >Genres were successfully downloaded as JSON files
-    """
+"""
+>Genres were successfully downloaded as JSON files
+"""
 
-    # search() looks to see if the movie is available on Netflix streaming.
-    # other methods are chained to search() and returns specific information about the movie.
-    movie.search('Jerry Maguire').duration()
-    movie.search('Jerry Maguire').netflix_rating()
+# search() looks to see if the movie is available on Netflix streaming.
+# other methods are chained to search() and returns specific information about the movie.
+movie.search('Jerry Maguire').duration()
+movie.search('Jerry Maguire').netflix_rating()
 
-    """
-    >Movie was found
-    >2hr 18m
-    >3.6 stars
-    """
-    ```
+"""
+>Movie was found
+>2hr 18m
+>3.6 stars
+"""
+```
 Check out the example.py file. E-mail any specific questions to [jameskang410][2]
 
 # All Available Functions
