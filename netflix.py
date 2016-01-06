@@ -96,7 +96,7 @@ class Netflix:
 
                 txt_file = '%s.json' % genre
 
-                url = 'http://www.netflix.com/api/shakti/90409bc7/wigenre?genreId=%s&full=false&from=0&to=10000' % genre_dictionary.get(genre)
+                url = 'http://www.netflix.com/api/shakti/c88e2062/wigenre?genreId=%s&full=false&from=0&to=10000' % genre_dictionary.get(genre)
 
                 r = requests.get(url, cookies=self.cookies)
 
