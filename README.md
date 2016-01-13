@@ -46,7 +46,7 @@ movie.search('Jerry Maguire').netflix_rating()
 >3.6 stars
 """
 ```
-Check out the example.py file. E-mail any specific questions to [jameskang410][2]
+Check out the example.py file. E-mail any specific questions to <jameskang410@gmail.com>
 
 # All Available Functions
 <table class="tg">
@@ -141,4 +141,3 @@ Check out the example.py file. E-mail any specific questions to [jameskang410][2
     <td class="tg-s6z2">Returns the URL for the large box art of the movie. NOTE: Because of the different layout of Netflix movie pages, this method does not always work.</td>
   </tr>
 [1]: http://www.tomatoflix.com
-[2]: jameskang410@gmail.com
