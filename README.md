@@ -1,6 +1,8 @@
 # Scraping Netflix - The Unofficial Way!
 A Python class that scrapes information about Netflix movies that are available for streaming. Used by [www.tomatoflix.com][1]
 
+# Warning: Netflix's APIs have changed and this package has not yet been updated to follow those changes.
+
 # Why? 
 This project started because I wanted to create [Tomatoflix][1], an interactive website that helps lazy people like me find random Netflix movies to watch.
 I was surprised to find out that Netflix privatized their API. I took matters into my own hands and decided to forge a Netflix API of my own.
